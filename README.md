@@ -105,13 +105,15 @@ The analysis compared gene expression between male and female skeletal muscle sa
 
 This chart shows the distribution of skeletal muscle samples included in the final analysis. After matching the sample metadata with the gene expression data, the analysis included 569 samples: 398 male and 171 female.
 
-![Sample Distribution by Sex](images/sample_distribution.png)
+<img width="439" height="278" alt="Screenshot 2026-10-22 at 1 33 21 PM" src="https://github.com/user-attachments/assets/4e057579-616e-4642-ae06-bcd1aa8d05ee" />
+
 
 ### 2. Top 10 Differentially Expressed Genes
 
 This chart compares average gene expression between male and female skeletal muscle samples for the top 10 genes ranked by Bonferroni-adjusted p-value.
 
-![Top 10 Differentially Expressed Genes](images/top_10_genes.png)
+<img width="581" height="346" alt="Screenshot 2026-10-22 at 1 37 48 PM" src="https://github.com/user-attachments/assets/9bd50f9e-6d49-45ce-8019-0ec9da9deda5" />
+
 
 The results highlighted **EIF1AY, RPS4Y1, KDM5D, USP9Y, and UTY**, which showed higher average expression in the male sample group.
 
@@ -123,7 +125,8 @@ These values describe differences in group averages and should not be interprete
 
 The volcano plot displays gene expression differences alongside statistical significance.
 
-![Volcano Plot](images/volcano_plot.png)
+<img width="641" height="489" alt="Screenshot 2026-10-22 at 1 38 21 PM" src="https://github.com/user-attachments/assets/f137e062-97af-47fd-be7b-ad5cc9df2a0c" />
+
 
 The horizontal axis shows the log2 expression ratio calculated using a pseudocount of 1 TPM added to each group's mean expression. The vertical axis shows the negative log10 of the Bonferroni-adjusted p-value.
 
